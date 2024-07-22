@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    color: white;
+}
+.me1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+
+.me1 img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 10px;
+
+}
+
+hr {
+    margin: 0;
+}
+.me1-det {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    letter-spacing: 10px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#role {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 9px;	
+    margin: 0;
+}
+i {
+    font-size: 1.5em;
+}
+.contact {
+    padding-top: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.me22 {
+    background-color: rgba(0,0,0,0.05); 
+}
+.me22 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 60px;
+    color: rgba(0,0,0,0.6);
+}
+
+.me2 h3{
+    font-size: 1.2vw;
+}
+.me2 h4 {
+    font-size: 1vw;
+}
+.me2 h5{
+    font-size: 1vw;
+}
+
+.me2 {
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.me2232 {
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  display: grid;
+  grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% ;
+}
+.me2232 #school1 h3,.me2232 #school1 h4,.me2232 #school1 h5 {
+    color: black;
+}
+.me2232 .langs {
+    color: black;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+}
+.me2232 .langs h3 {
+    color: black;	
+    font-size: 1vw;
+}
+.me2232 .langs img {
+    margin-top: 1.2vh;
+}
+.me2 #clg h3,.me2 #clg h4,.me2 #clg h5 {
+    color: black;
+}
+.me2 #school1 h3,.me2 #school1 h4,.me2 #school1 h5 {
+    color: black;
+}
+.me2 #school2 h3,.me2 #school2 h4,.me2 #school2 h5 {
+    color: black;
+}
+#school1,#clg,#school2 {
+    border: 1px solid rgba(0,0,0,0.1);
+    color: black;
+}
+
+#heading h1 {
+    padding: 5px;
+    font-size: 30px;
+    height: auto;
+}
+
+.h11 {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.me33 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 1.5vw;
+    color: rgba(0,0,0,0.6);
+}
+
+.me2 h3 , .me2  h4, .me2 h5{
+    color: white;
+}
+
+.me3 h2 , .me3  h3, .me3 b{
+    color: black;
+}
+
+.me3 {
+  background-color: rgba(0,0,0,0.6);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.a2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.a1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.a1 {
+    background-color: white;
+}
+.desc {
+    padding-left: 2vw;
+}
+.me3 .a1 h2, .me3 .a1 h3, .me3 .a1 b {
+    color: rgba(0,0,0,0.8);
+}
+
+.me3 .a2 h2, .me3 .a2 h3, .me3 .a2 b {
+    color: white;
+}
+
+.year {
+    padding-right: 2vw;
+}
+
+.bi-trophy-fill {
+    padding-right: 5px;
+    color: yellow;
+}
+
+.aaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgg {
+    padding-right: 10px;
+}
+
+.a1 {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.desc1 {
+    width: 100%;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc1212 {
+    width: 55%;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lang  {
+    padding-right: 3vw;
+}
+
+.desc4 {
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hob-draw {
+    color: violet;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-poem {
+    color: indigo;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-clay {
+    color: blue;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-tailor {
+    color: green;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-3d {
+    color: yellow;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-game {
+    color: orange;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.hob-learn {
+    color: red;
+    padding-right: 1vw;
+    font-size: 30px;
+}
+
+.aaa1 {
+    display: flex;
+    align-items: center;
+}
+.me3 .a1 .desc4 .aaa1 h2 b {
+    font-size: 1.2vw;
+}
+
+.aaa12 img {
+    padding-top: 2.5vh;
+}
+a {
+    text-decoration: none;
+}

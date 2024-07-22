@@ -106,6 +106,20 @@
 				transform: translateX(250%);
 			}
 		}
+
+		@media (max-width: 1000px) {
+			.cover {
+				width: 85%;
+			}
+			#tig {
+				width: 700px;
+			}
+			.options button {
+				font-size: 3vw;
+				font-weight: lighter;
+				padding: 0.91rem;
+			}
+		}
 	</style>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
@@ -166,7 +180,7 @@
 					var buttonId = target.id;
 					switch (buttonId) {
 						case 'res-but':
-							location.href = 'resume.html';
+							location.href = './resume/index.html';
 							break;
 						case 'organ-but':
 							location.href = 'organ.html';
