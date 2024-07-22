@@ -52,7 +52,7 @@ header h1 {
 
 #contents a div span {
     margin-left: 1rem;
-    font-size: 3vw;
+    font-size: 2.3vw;
 }
 
 @media (max-width: 1000px) {
