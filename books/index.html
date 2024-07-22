@@ -2,303 +2,213 @@
 <html lang="en">
 <head>
     <link rel="icon" type="image/x-icon" href="statics/a.ico">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    body {
-        background-color: #2b2a33;
-        margin: 3;
-    } 
-    #logo {
-        width: 35%;
-    }
-    .heading {
-      padding: 0.32rem;
-      height: 10%;
-      margin: 1vw;
-      background-color: #42414d;
-      border-radius: 1em;
-      display: flex;
-      align-items: center;
-      justify-content: left;
-    }
-    #ari {
-      width: 7%;
-      height: auto;
-      margin: 1.3vw;
-      box-shadow: 0 0 8px white,
-            0 0 10px white,
-            0 0 20px white;
-    }
-    .row {
-        width: 100% !important;
-    }
-    .books {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        justify-content: space-around;
-    }
-    .book {
-        transition: 0.1s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: #42414d;
-        padding: 4%;
-        margin: 3.3%;
-        border-radius: 0.31em;
-    }
-    .book img {
-        max-width: 98%;
-        height: auto;
-        border-top-left-radius: 0.21em;
-        border-top-right-radius: 0.21em;
-    }
-    
-    .book:hover {
-        transform: scale(1.025);
-    }
-
-    a {
-        color: black;
-        text-decoration: none;
-        border-bottom-left-radius: 0.21rem;
-        border-bottom-right-radius: 0.21rem;
-        background-color: hsl(158, 81%, 49%);
-        font-family: 'Roboto', sans-serif;
-        font-size: 2vw;
-        border: none;
-        width: 98%;
-        padding: 0.7% 0 0.7% 0;
-        text-align: center;
-    }
-    @media only screen and (max-width: 800px) {
-        a {
-            font-size: 4vw;
-        }
-        .books {
-            grid-template-columns: 33% 33% 33%;
-            justify-content: space-around;
-            margin: 0;
-        }
-        .book {
-            margin: 3%;
-        }
-	#logo {
-            width: 65%;
-    	}
-    }
-	    
-    </style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
     <title>Books | Ariharasudhan</title>
 </head>
+
 <body>
     <div class="heading">
         <div class="heading1"></div>
-            <img id="ari" src="statics/ari.jpg" width="100px" style="border-radius: 50%">
-            <img src="statics/books.png" id="logo" alt="" >
+            <img id="ari" src="../statics/ari.jpg" width="100px" style="border-radius: 50%">
+            <img src="../statics/books.png" id="logo" alt="" >
         </div>
     </div>    
     <div class="books">
             <div class="book">
-                <img src="statics/cherry.png" alt=""/>
+                <img src="../statics/cherry.png" alt=""/>
                 <a href="https://www.mediafire.com/file/debt2v2m4w7gmvq/cherryPy.pdf/file">READ</a>
             </div>
             <div class="book">
-                <img src="statics/rest.png" alt=""/>
+                <img src="../statics/rest.png" alt=""/>
                 <a href="https://www.mediafire.com/file/6oua5esb81bx2wi/restAPI.pdf/file">READ</a>
             </div>    
 	    
             <div class="book">
-                <img src="statics/npycover.png" alt=""/>
+                <img src="../statics/npycover.png" alt=""/>
                 <a href="https://www.mediafire.com/file/memb0e3zspe28ux/numPy.pdf/file">READ</a>
             </div>
             <div class="book">
-                <img src="statics/fast.png" alt=""/>
+                <img src="../statics/fast.png" alt=""/>
                 <a href="https://www.mediafire.com/file/0fv164jfw46aflh/fastAPI.pdf/file">READ</a>
             </div>
             <div class="book">
-                    <img src="statics/fastad.png" alt=""/>
+                    <img src="../statics/fastad.png" alt=""/>
                     <a href="https://www.mediafire.com/file/68n0c835wr5lljs/fastAPI_advanced.pdf/file">READ</a>
             </div>
             <div class="book">
-                <img src="statics/cv.png" alt=""/>
+                <img src="../statics/cv.png" alt=""/>
                 <a href="https://www.mediafire.com/file/92422hchq7wmcy8/openCV.pdf/file">READ</a>
             </div>
             <div class="book">
-                <img src="statics/hware.png" alt=""/>
+                <img src="../statics/hware.png" alt=""/>
                 <a href="https://www.mediafire.com/file/hrety9cfdw5ylrd/hardware.pdf/file">READ</a>
             </div>
             <div class="book">
-                <img src="statics/calc.png" alt=""/>
+                <img src="../statics/calc.png" alt=""/>
                 <a href="https://www.mediafire.com/file/2cl3d5qexb5pl6k/calculus.pdf/file">READ</a>
             </div>
             <div class="book">
-                    <img src="statics/linalg.png" alt=""/>
+                    <img src="../statics/linalg.png" alt=""/>
                     <a href="https://www.mediafire.com/file/19jc6brqdcy95m0/linalg.pdf/file">READ</a>
            </div>
             <div class="book">
-                    <img src="statics/nnetbk.png" alt=""/>
+                    <img src="../statics/nnetbk.png" alt=""/>
                     <a href="https://www.mediafire.com/file/tku8135cz035zxw/neural-network.pdf/file">READ</a>
            </div>
             <div class="book">
-                    <img src="statics/cnn.png" alt=""/>
+                    <img src="../statics/cnn.png" alt=""/>
                     <a href="https://www.mediafire.com/file/2jabcszusofut1q/cnn.pdf/file">READ</a>
            </div>
            <div class="book">
-	            <img src="statics/dlbk.png" alt=""/>
+	            <img src="../statics/dlbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/qukt6r8zaklj8fb/dlearn.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/sqlbk.png" alt=""/>
+	            <img src="../statics/sqlbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/gca2dxjej3na475/sql.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/dlm.png" alt=""/>
+	            <img src="../statics/dlm.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/mjb3iyytq14y09y/dlm.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/torchbk.png" alt=""/>
+	            <img src="../statics/torchbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/9jc7md8ewmvg085/torch.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/torchcvbk.png" alt=""/>
+	            <img src="../statics/torchcvbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/73vl3g34qewhwzo/cvplustorch.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/siamesebk.png" alt=""/>
+	            <img src="../statics/siamesebk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/d36fgmby055dvch/siamese.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/seqmodelbk.png" alt=""/>
+	            <img src="../statics/seqmodelbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/n842ftmu9sueknk/seqmodels.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/transbk.png" alt=""/>
+	            <img src="../statics/transbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/7l5kuo7u27lw064/transformers.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/transcode.png" alt=""/>
+	            <img src="../statics/transcode.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/56qaia1o858ffls/transcoded.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/fasterrcnn.png" alt=""/>
+	            <img src="../statics/fasterrcnn.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/fow3gei1y1blukk/fasterrcnn.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/sentan.png" alt=""/>
+	            <img src="../statics/sentan.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/8c37n1de9gpwboe/sentanalysis.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/mern.png" alt=""/>
+	            <img src="../statics/mern.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/94v5zg7gpvfrhaa/MernStack.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/gk.png" alt=""/>
+	            <img src="../statics/gk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/40qvt630pycexz3/GK_3000.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/gk2.png" alt=""/>
+	            <img src="../statics/gk2.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/bxuuglv2clu7ze7/GK4000.pdf/file">READ</a>
 	   </div>
            <div class="book">
-	            <img src="statics/kmclust.png" alt=""/>
+	            <img src="../statics/kmclust.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/fot0p4rzvpa71i9/k-means.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/vitbk.png" alt=""/>
+	            <img src="../statics/vitbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/esnbnflcq25urll/vitbk.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/tripletlossbk.png" alt=""/>
+	            <img src="../statics/tripletlossbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/qdmr6qr9zjyivoy/tripletloss.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/spellsbk.png" alt=""/>
+	            <img src="../statics/spellsbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/qwxwdiwjsonkxkj/transpells.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/backbk.png" alt=""/>
+	            <img src="../statics/backbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/2pro6qod136d51d/backpg.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/cnnbk.png" alt=""/>
+	            <img src="../statics/cnnbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/wi00t9vgztm2e1t/cnn-rev.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/resnetbk.png" alt=""/>
+	            <img src="../statics/resnetbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/67lytiaazroh8qq/resnet.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/jsbk.png" alt=""/>
+	            <img src="../statics/jsbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/6ynbdots1jh5he2/QuailJS.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/engvtambk.png" alt=""/>
+	            <img src="../statics/engvtambk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/k0n1ll4hdr23ecl/eng_via_stories.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/unet.png" alt=""/>
+	            <img src="../statics/unet.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/ez1bd63gtjf7651/unet.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/lr.png" alt=""/>
+	            <img src="../statics/lr.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/if5fbee1yempkgq/lr.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/triptrans.png" alt=""/>
+	            <img src="../statics/triptrans.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/sntleqxee2cte9n/triptrans.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/gmm.png" alt=""/>
+	            <img src="../statics/gmm.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/4fd32ls3s5xyijw/gdd.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/hclust.png" alt=""/>
+	            <img src="../statics/hclust.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/gh11preg2lx7grm/hclust.pdf/file">READ</a>
 	   </div>
 	    <div class="book">
-	            <img src="statics/Screenshot from 2023-11-03 12-42-33.png" alt=""/>
+	            <img src="../statics/Screenshot from 2023-11-03 12-42-33.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/sd0liai814amv57/nst.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/cell-bio.png" alt=""/>
+	            <img src="../statics/cell-bio.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/8t7i2nkwv9ugh8w/cell-bio.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/engvstory.png" alt=""/>
+	            <img src="../statics/engvstory.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/sdq5xku9305sfhn/engviastory.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/ptypenet.png" alt=""/>
+	            <img src="../statics/ptypenet.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/npjam057ofy08yo/ptypenet.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/Screenshot from 2023-12-15 14-09-18.png" alt=""/>
+	            <img src="../statics/Screenshot from 2023-12-15 14-09-18.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/6cptv7dayfdkxel/gen.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/gitbk.png" alt=""/>
+	            <img src="../statics/gitbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/ho6dllvmixjo0go/git.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/linbk.png" alt=""/>
+	            <img src="../statics/linbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/k3uqbrfy4ucdr0o/2linux.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/pybk.png" alt=""/>
+	            <img src="../statics/pybk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/jnc9fyr5mwkrkc7/3pydevkit.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/audbk.png" alt=""/>
+	            <img src="../statics/audbk.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/bzm78wvqs5jghb1/audio.pdf/file">READ</a>
 	   </div>	    
 	    <div class="book">
-	            <img src="statics/Screenshot from 2024-01-23 14-09-22.png" alt=""/>
+	            <img src="../statics/Screenshot from 2024-01-23 14-09-22.png" alt=""/>
 	            <a href="https://www.mediafire.com/file/h1r0zliat7husld/audfeatures.pdf/file">READ</a>
 	   </div>	    
     </div>
