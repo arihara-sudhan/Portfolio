@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 * {
-  font-family: 'Comfortaa', cursive;
   margin: 3px;
 }
 
@@ -15,7 +13,6 @@
     box-shadow: 0 0 10px white,
               0 0 40px #79CDCD,
               0 0 80px #C3E4ED;
-  font-family: 'Poppins', sans-serif;
   font-size: 2.1vw;
   font-weight: bolder;
   background-color: #C3E4ED;
@@ -47,7 +44,6 @@ body {
   letter-spacing: 2px;
   margin-left: 2.5vw;
   font-size: 1.8vw;
-  font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
   color: white;
 }
