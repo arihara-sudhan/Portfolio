@@ -8,5 +8,4 @@ fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io
             innerContents += `<a href="${rec.link}"><div class="kural"><img src="${rec.img}" alt=""><span>${rec.kural_name}</span></div></a>`
         })
         div.innerHTML = innerContents;
-        console.log(innerContents)
 })
