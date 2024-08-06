@@ -1,0 +1,3 @@
+function createTagBanner(tags){
+	
+}
