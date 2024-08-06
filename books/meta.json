@@ -1,42 +1,77 @@
 [
   {
-        "name": "BOOK1",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK2",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK1",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK2",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK1",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK2",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK1",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK2",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK1",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   },
   {
-        "name": "BOOK2",
-        "source": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
+  },
+  {
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
+  },
+  {
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
+  },
+  {
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
+  },
+  {
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
+  },
+  {
+    "cover": "./covers/calc.png",
+    "url": "",
+    "name": "Essential Calculus"
   }
 ]
