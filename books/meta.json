@@ -1,17 +1,80 @@
 [
   {
+    "cover": "./covers/backbk.png",
+    "url": "",
+    "name": "Back Propagation",
+    "tag": "machine-learning"
+  },
+  {
     "cover": "./covers/calc.png",
     "url": "",
-    "name": "Essential Calculus"
+    "name": "Essential Calculus",
+    "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/linalg.png",
+    "url": "",
+    "name": "Linear Algebra",
+    "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/jsbk.png",
+    "url": "",
+    "name": "Quail JavaScript",
+    "tag": "web"
+  },
+  {
+    "cover": "./covers/mern.png",
+    "url": "",
+    "name": "MERN Stack",
+    "tag": "web"
   },
   {
     "cover": "./covers/cell-bio.png",
     "url": "",
-    "name": "Cell Biology"
+    "name": "Cell Biology",
+    "tag": "biology"
   },
   {
     "cover": "./covers/cv.png",
     "url": "",
-    "name": "Computer Vision"
-  }
+    "name": "Computer Vision",
+    "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/gitbk.png",
+    "url": "",
+    "name": "Git",
+    "tag": "general"
+  },
+  {
+    "cover": "./covers/pybk.png",
+    "url": "",
+    "name": "PyDevKit",
+    "tag": "python"
+  },
+  {
+    "cover": "./covers/rest.png",
+    "url": "",
+    "name": "REST API",
+    "tag": "general"
+  },
+  {
+    "cover": "./covers/linbk.png",
+    "url": "",
+    "name": "Linux",
+    "tag": "general"
+  },
+  {
+    "cover": "./covers/engvtambk.png",
+    "url": "",
+    "name": "English via Stories",
+    "tag": "Tamizh"
+  },
+  {
+    "cover": "./covers/engvstory.png",
+    "url": "",
+    "name": "English via Stories 2",
+    "tag": "Tamizh"
+  },
 ]
