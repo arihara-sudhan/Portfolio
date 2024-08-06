@@ -34,10 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
 
-                if (!recordsFound) {
-                    alert("No records found for the selected tag.");
-                }
-
                 div.innerHTML = innerContents;
 
                 const anchors = document.querySelectorAll('.anchor');
@@ -60,9 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
-    const tags_list = ["html", "js", "react", "redux"];
+    const tags_list = ["html", "js", "react",];
     tags_list.forEach(createTagBar);
-
-    // Initial content load
     updateContent();
 });

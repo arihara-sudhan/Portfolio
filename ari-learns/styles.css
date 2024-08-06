@@ -79,21 +79,23 @@ header h1 {
     background-color: #42414d;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.31rem;
     border-radius: 0.2rem;
+    width: 95%;
 }
 
 #tags h2 {
     background-color: lightgreen;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin: 0.3rem 0 0.3rem 0;
+    padding: 0 2rem 0 2rem;
     border-radius: 0.5rem;
     text-transform: uppercase;
+    font-size: 1vw;
 }
 
-#tags h2:hover {
-    background-color: transparent;
-    border: 2px solid lightgreen;
+#tags h2:active {
     color: lightgreen;
+    background-color: green;
 }
