@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #2b2a33;
+}
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #42414d;
+    padding: 1rem;
+    color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+header img {
+    border-radius: 50%;
+    width: 10%;
+    border: 3px solid white;
+}
+
+header h1 {
+    margin-left: 1rem;
+}
+
+#contents a {
+    text-decoration: none;
+    color: white;
+}
+
+#contents div:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+#contents a div {
+    background-color: #42414d;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#contents img {
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+}
+
+#contents a div span {
+    margin-left: 1rem;
+    font-size: 2.3vw;
+}
+
+@media (max-width: 1000px) {
+    #contents img {
+        width: 15%;
+    }
+    #contents a div span {
+        font-size: calc(2vw + 20px);
+        margin-left: 2.4rem;
+    }
+    header img {
+        width: 16%;
+    }    
+    header h1 {
+        font-size: 5vw;
+    }    
+}
+
+#tags {
+    background-color: #42414d;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+#tags h2 {
+    background-color: lightgreen;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+#tags h2:hover {
+    background-color: transparent;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+}
