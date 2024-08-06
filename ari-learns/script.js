@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function updateContent() {
-        fetch("https://raw.githubusercontent.com/arihara-sudhan/we-learn/main/meta.json")
+        fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/main/ari-learns/meta.json")
             .then(resp => resp.json())
             .then(data => {
                 let innerContents = '';
