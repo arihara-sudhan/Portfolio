@@ -5,9 +5,8 @@ fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io
     .then(resp => resp.json())
     .then(data => {
         data.forEach(book => {
-            innerContents += `<div class="book">
-                                <iframe src="${book.source}" width="100%" height="100%">
-                                </iframe>
+            innerContents += `<div class="book" onclick="window.load('${book.url}', '_blank');">
+            					<img src=${book.cover} alt="Book coudn't load">
                                 <h3>${book.name}</h3>
                               </div>`;
         });
