@@ -3,6 +3,23 @@ body {
     color:  white;
 }
 
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #42414d;
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
 #contents {
     display: flex;
     justify-content: center;
@@ -22,7 +39,6 @@ body {
 
 .book img {
     width: 95%;
-    height: 300px;
     border-radius: 0.5rem;
 }
 
