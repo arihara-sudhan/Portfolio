@@ -2,10 +2,18 @@ document.addEventListener("DOMContentLoaded", function() {
     const div = document.getElementById('contents');
     const tags = document.getElementById("tags");
     let tag_selected = "";
+    const tagColors = ["lightgreen", "lightblue", "yellow", "orange", "tomato"]
+    let color_idx = 0;
 
     function createTagBar(text) {
         const text_element = document.createElement("h2");
         text_element.innerText = text;
+        text_element.style.backgroundColor = tagColors[color_idx];
+        if(color_idx+1==tagColors.length)
+            color_idx=0
+        else
+            color_idx+=1;
+        
         text_element.addEventListener("click", () => {
             tag_selected = text;
             updateContent();
@@ -23,20 +31,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 data.learning_records.forEach(rec => {
                     if (tag_selected === "" || rec.tag === tag_selected) {
                         innerContents += `
-                            <a href="${rec.pagelink}" class="anchor" target="_blank">
-                                <div class="kural">
+                                <div class="item" onclick="window.open('${rec.pagelink}', '_blank')">
                                     <img src="${rec.img}" alt="">
-                                    <span>${rec.title}</span>
+                                    <span class="">${rec.title}</span>
                                     <span class="hoverElement" style="display: none;">${rec.description}</span>
-                                </div>
-                            </a>`;
+                                </div>`;
                         recordsFound = true;
                     }
                 });
 
                 div.innerHTML = innerContents;
 
-                const anchors = document.querySelectorAll('.anchor');
+                const anchors = document.querySelectorAll('.item');
 
                 anchors.forEach(anchor => {
                     const hoverElement = anchor.querySelector('.hoverElement');
@@ -56,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
-    const tags_list = ["html", "js", "react",];
+    const tags_list = ["html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react","html", "js", "react",];
     tags_list.forEach(createTagBar);
     updateContent();
 });
