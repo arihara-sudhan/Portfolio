@@ -1,13 +1,13 @@
 [
   {
     "cover": "./covers/backbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/backpg.pdf",
     "name": "Back Propagation",
     "tag": "machine-learning"
   },
   {
     "cover": "./covers/calc.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/calculus.pdf",
     "name": "Essential Calculus",
     "tag": "machine-learning"
   },
@@ -43,13 +43,13 @@
   },
   {
     "cover": "./covers/gitbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/git.pdf",
     "name": "Git",
     "tag": "general"
   },
   {
     "cover": "./covers/pybk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/pydevkit.pdf",
     "name": "PyDevKit",
     "tag": "python"
   },
@@ -61,7 +61,7 @@
   },
   {
     "cover": "./covers/linbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/linux.pdf",
     "name": "Linux",
     "tag": "general"
   },
