@@ -22,6 +22,7 @@ body {
 
 .book img {
     width: 95%;
+    height: 300px;
     border-radius: 0.5rem;
 }
 

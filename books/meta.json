@@ -7,71 +7,11 @@
   {
     "cover": "./covers/cell-bio.png",
     "url": "",
-    "name": "Cell Biology (Tamil-English)"
+    "name": "Cell Biology"
   },
   {
-    "cover": "./covers/calc.png",
+    "cover": "./covers/cv.png",
     "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
-  },
-  {
-    "cover": "./covers/calc.png",
-    "url": "",
-    "name": "Essential Calculus"
+    "name": "Computer Vision"
   }
 ]
