@@ -93,6 +93,6 @@ header h2 {
 }
 
 #tags h2:active {
-    color: lightgreen;
+    color: white;
     background-color: green;
 }
