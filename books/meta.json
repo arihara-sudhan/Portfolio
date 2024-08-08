@@ -19,7 +19,7 @@
   },
   {
     "cover": "./covers/seqmodelbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/seqmodels.pdf",
     "name": "Sequential Models",
     "tag": "machine-learning"
   },
@@ -31,7 +31,7 @@
   },
   {
     "cover": "./covers/jsbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/QuailJS.pdf",
     "name": "Quail JavaScript",
     "tag": "web"
   },
@@ -73,19 +73,19 @@
   },
   {
     "cover": "./covers/asyncjs.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/asyncjs.pdf",
     "name": "Asynchronous JavaScript",
     "tag": "web"
   },
   {
     "cover": "./covers/fast.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/fastAPI.pdf",
     "name": "Fast API",
     "tag": "web"
   },
   {
     "cover": "./covers/fastad.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/fastAPI_advanced.pdf",
     "name": "Fast API Advanced",
     "tag": "web"
   },
