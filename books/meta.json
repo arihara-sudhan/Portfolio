@@ -25,7 +25,7 @@
   },
   {
     "cover": "./covers/linalg.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/linalg.pdf",
     "name": "Linear Algebra",
     "tag": "machine-learning"
   },
@@ -109,7 +109,7 @@
   },
   {
     "cover": "./covers/rest.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/restAPI.pdf",
     "name": "REST API",
     "tag": "web"
   },
