@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const tagsElement = document.getElementById("tags");
     const div = document.getElementById("contents");
     let tagSelected = "";
-    const tagColors = ["lightgreen", "lightblue", "yellow", "pink", "orange"];
+    const tagColors = ["DodgerBlue", "lightblue", "yellow", "pink", "orange", "lightgreen"];
     let color_idx = 0;
 
     function createTagBanner(tags, container) {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error fetching the JSON file:', error));
     }
 
-    const tags = ["web", "machine-learning", "tamizh", "general", "biology"] 
+    const tags = ["web", "machine-learning", "tamizh", "general", "biology", "python"] 
     createTagBanner(tags, tagsElement);
     updateContent();
 });
