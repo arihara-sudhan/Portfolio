@@ -37,7 +37,7 @@
   },
   {
     "cover": "./covers/mern.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/MernStack.pdf",
     "name": "MERN Stack",
     "tag": "web"
   },
@@ -49,13 +49,19 @@
   },
   {
     "cover": "./covers/cnnbk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/cnn-rev.pdf",
     "name": "CNN",
     "tag": "machine-learning"
   },
   {
+    "cover": "./covers/dlbk.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/cd4cd9c1d2d26e76e58791d6bfe772eb1228b8f7/books/BOOKS/dlearn.pdf",
+    "name": "DeepLearning",
+    "tag": "machine-learning"
+  },
+  {
     "cover": "./covers/dlm.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/cd4cd9c1d2d26e76e58791d6bfe772eb1228b8f7/books/BOOKS/dlm.pdf",
     "name": "DeepLearning Mysteries",
     "tag": "machine-learning"
   },
