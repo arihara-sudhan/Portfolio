@@ -50,6 +50,10 @@ header h2 {
     border-bottom: 3px solid lightgreen;
 }
 
+.book:hover {
+    cursor: pointer;
+}
+
 .book img {
     width: 95%;
     border-radius: 0.5rem;
@@ -58,16 +62,6 @@ header h2 {
 .book h3 {
     margin: 0;
     font-size: 1.4vw;
-}
-
-@media (max-width:  1000px) {
-    .book {
-        width: 95%;
-        margin: 0.6rem;
-    }
-    .book h3 {
-        font-size: 5vw;
-    }
 }
 
 #tags {
@@ -92,7 +86,36 @@ header h2 {
     font-size: 1vw;
 }
 
+#tags g2:hover {
+    cursor: pointer;
+}
+
+
 #tags h2:active {
     color: white;
     background-color: green;
 }
+
+@media (max-width:  1000px) {
+    header img {
+        width: 17%;
+    }
+
+    header h2{
+        font-size: calc(1rem + 4vw);
+    }
+
+    .book {
+        width: 95%;
+        margin: 0.6rem;
+    }
+    
+    .book h3 {
+        font-size: 5vw;
+    }
+
+    #tags h2 {
+        font-size: calc(0.5rem + 1.5vw);
+    }
+}
+
