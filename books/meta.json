@@ -12,6 +12,18 @@
     "tag": "machine-learning"
   },
   {
+    "cover": "./covers/nnetbk.png",
+    "url": "",
+    "name": "Neural Network",
+    "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/seqmodelbk.png",
+    "url": "",
+    "name": "Sequential Models",
+    "tag": "machine-learning"
+  },
+  {
     "cover": "./covers/linalg.png",
     "url": "",
     "name": "Linear Algebra",
@@ -36,10 +48,46 @@
     "tag": "biology"
   },
   {
+    "cover": "./covers/cnnbk.png",
+    "url": "",
+    "name": "CNN",
+    "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/dlm.png",
+    "url": "",
+    "name": "DeepLearning Mysteries",
+    "tag": "machine-learning"
+  },
+  {
     "cover": "./covers/cv.png",
     "url": "",
     "name": "Computer Vision",
     "tag": "machine-learning"
+  },
+  {
+    "cover": "./covers/asyncjs.png",
+    "url": "",
+    "name": "Asynchronous JavaScript",
+    "tag": "web"
+  },
+  {
+    "cover": "./covers/fast.png",
+    "url": "",
+    "name": "Fast API",
+    "tag": "web"
+  },
+  {
+    "cover": "./covers/fastad.png",
+    "url": "",
+    "name": "Fast API Advanced",
+    "tag": "web"
+  },
+  {
+    "cover": "./covers/genevolv.png",
+    "url": "",
+    "name": "Genetics",
+    "tag": "biology"
   },
   {
     "cover": "./covers/gitbk.png",
@@ -57,7 +105,7 @@
     "cover": "./covers/rest.png",
     "url": "",
     "name": "REST API",
-    "tag": "general"
+    "tag": "web"
   },
   {
     "cover": "./covers/linbk.png",
