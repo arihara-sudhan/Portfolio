@@ -133,43 +133,43 @@
   },
   {
     "cover": "./covers/engviatory3.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/engviastory3.pdf",
     "name": "English via Stories 3",
     "tag": "tamizh"
   },
   {
     "cover": "./covers/engviatory4.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/engviastory4.pdf",
     "name": "English via Stories 4",
     "tag": "tamizh"
   },
   {
     "cover": "./covers/instakavi.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/instakavi.pdf",
     "name": "Instagram Kavithaigal",
     "tag": "tamizh"
   },
   {
     "cover": "./covers/pydatamodel.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/pydatamodel.pdf",
     "name": "Python Data Model",
     "tag": "python"
   },
   {
     "cover": "./covers/arrayofseq.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/anarrayofseq.pdf",
     "name": "An Array of Sequences",
     "tag": "python"
   },
   {
     "cover": "./covers/jsunder.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/jsunderhood.pdf",
     "name": "JavaScript Under The Hood",
     "tag": "web"
   },
   {
     "cover": "./covers/jsunder.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/funcprog.pdf",
     "name": "Functional Programming",
     "tag": "web"
   },
