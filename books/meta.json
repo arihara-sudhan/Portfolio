@@ -43,7 +43,7 @@
   },
   {
     "cover": "./covers/cell-bio.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/cell-bio.pdf",
     "name": "Cell Biology",
     "tag": "biology"
   },
@@ -67,7 +67,7 @@
   },
   {
     "cover": "./covers/cv.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/openCV.pdf",
     "name": "Computer Vision",
     "tag": "machine-learning"
   },
@@ -121,13 +121,13 @@
   },
   {
     "cover": "./covers/engvtambk.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/eng_via_stories.pdf",
     "name": "English via Stories",
     "tag": "tamizh"
   },
   {
     "cover": "./covers/engvstory.png",
-    "url": "",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/engviastory.pdf",
     "name": "English via Stories 2",
     "tag": "tamizh"
   }
