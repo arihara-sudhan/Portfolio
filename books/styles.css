@@ -41,16 +41,7 @@ body {
 }
 
 
-
 @media (max-width:  1000px) {
-    header img {
-        width: 17%;
-    }
-
-    header h2{
-        font-size: calc(1rem + 4vw);
-    }
-
     .book {
         width: 95%;
         margin: 0.6rem;
@@ -58,10 +49,6 @@ body {
     
     .book h3 {
         font-size: 5vw;
-    }
-
-    #tags h2 {
-        font-size: calc(0.5rem + 1.5vw);
     }
 }
 
