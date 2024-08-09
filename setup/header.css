@@ -21,3 +21,13 @@ header h2 {
     margin: 0;
     margin-left: 0.9rem;
 }
+
+@media (max-width:  1000px) {
+    header img {
+        width: 17%;
+    }
+
+    header h2{
+        font-size: calc(1rem + 4vw);
+    }
+}

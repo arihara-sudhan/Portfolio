@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateContent() {
-        fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/main/books/meta.json")
+        fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/main/hobbies/meta.json")
             .then(resp => resp.json())
             .then(data => {
                 let innerContents = '';
