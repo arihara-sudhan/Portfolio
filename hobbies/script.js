@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const tagsElement = document.getElementById("tags");
-    const div = document.getElementById("hobbies");
+    const div = document.getElementById("contents");
     let tagSelected = "";
     const tagColors = ["DodgerBlue", "lightblue", "yellow", "pink", "orange", "lightgreen"];
     let color_idx = 0;
