@@ -6,6 +6,12 @@
     "tag": "machine-learning"
   },
   {
+    "cover": "./covers/hooks.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/0349f8aa9c6bde34edebca13a8d1e2a673d79399/books/BOOKS/hooks.pdf",
+    "name": "Hooks: ReactJs",
+    "tag": "web"
+  },
+  {
     "cover": "./covers/calc.png",
     "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/calculus.pdf",
     "name": "Essential Calculus",
