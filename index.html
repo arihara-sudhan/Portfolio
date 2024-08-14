@@ -7,64 +7,64 @@
 	<link rel="stylesheet" type="text/css" href="./setup/style.css">
 	<style type="text/css">
 		body {
-			margin: 0;
 			background-image: url("statics/bg.jpg");
 			background-size: cover;
 			background-attachment: fixed;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			height: 100%;
 		}
 		.cover {
-			width: 70vw;
+			width: 80%;
 			display: flex;
-			border-radius: 20px;
 			flex-direction: column;
 			justify-content: space-around;
-			margin-top: 5vh;
-			height: auto;
+			border-radius: 2rem;
+			margin: 5vh 0vh 5vh 0vh;
 			background-color: rgba(255,255,255,0.22);
-			margin-bottom: 5vh;
-			box-shadow: 10px 10px 10px rgba(0,0,0,0.2), -10px -10px 10px rgba(0,0,0,0.2);
+			box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 		}
 		.cover img {
 			width: 25%;
 			border-radius: 50%;
-			border: 0.4vw solid rgba(255,255,255,0.5);
+			border: 0.4vw solid rgba(255,255,255,0.52);
 		}
-		#name, #name1 {
+
+		#name {
 			font-size: 5vw;
-			font-weight: bold;
+			font-weight: bolder;
 			color: rgba(255,255,255,0.9);
 			text-align: center;
-			letter-spacing: 0.1vw;
+			letter-spacing: 0.01vw;
 		}
 		#bio {
 			font-size: 2vw;
 			color: rgba(255,255,255,0.9);
 			text-align: center;
-			letter-spacing: 0.1vw;
+			letter-spacing: 0.8vw;
 		}
-		.img1 {
-			display: flex;
-			justify-content: center;
-			margin-top: 8%;
-		}
-		.options {
-			margin-top: 5%;
+		.first {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 8%;
+			margin-bottom: 0;
+		}
+		.options {
+			margin: 5% 0% 5% 0%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
 		}
 		.options button {
-			margin: 1%;
+			margin: 2% 0% 2% 0%;
 			background-color: rgba(0,0,0,0.2);
 			border: 0;
 			color: white;
-			font-size: 2.5vw;
+			font-size: 2.8vw;
 			padding: 2%;
 			transition: 0.3s;
-			margin-bottom: 3%;
 		}
 		.options button:hover {
 			background-color: rgba(0,0,0,0.4);
@@ -72,9 +72,6 @@
 		}
 		.contact {
 			padding: 1%;
-			position: relative;
-			top: 0;
-			left: 0;
 			display: flex;
 			justify-content: space-around;
 			font-size: 3vw;
@@ -84,18 +81,13 @@
 			color: white;
 			text-decoration: none;
 		}
-		.first {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-		}
 		#tig {
 			border: 0;
 			border-radius: 0;
 			animation-name: move;
 			animation-duration: 10s;
 			position: fixed;
-			bottom: 0;
+			bottom: -6%;
 			left: 0;
 			transform: translateX(-150%);
 		}
@@ -107,15 +99,15 @@
 
 		@media (max-width: 1000px) {
 			.cover {
-				width: 85%;
+				width: 95%;
 			}
 			#tig {
-				width: 700px;
+				width: 200rem;
 			}
 			.options button {
-				font-size: 3vw;
-				font-weight: lighter;
-				padding: 0.91rem;
+				font-size: 4vw;
+				font-weight: 2vw;
+				padding: 1rem;
 			}
 		}
 	</style>
@@ -133,11 +125,9 @@
 			<a href="https://www.instagram.com/aravind_ariharasudhan/"><i class="bi-instagram"></i></a>
 		</div>
 		<div class="first">
-			<div class="img1">
-				<img src="./statics/ss1.png" alt="ari" id="ari-pic">
-			</div>
+			<img src="./statics/ss1.png" alt="ari" id="ari-pic">
 			<span id="name">Ariharasudhan</span>
-			<span id="bio">Sky's The Limit</span>
+			<span id="bio">SKY'S THE LIMIT</span>
 		</div>
 		<div class="options">
 			<button id="res-but">Résumé</button>
@@ -153,81 +143,57 @@
 	</div>
 	<img src="statics/tiger.gif" id="tig" width="65%">
 	<script type="text/javascript">
-		document.addEventListener("DOMContentLoaded", function() {
-		        var imagePaths = [
-			    "./statics/ss1.png",
-			    "./statics/ss2.png",
-			    "./statics/ss7.png"
-		        ];
-		
-		        var currentIndex = 0;
-		        var ariPic = document.getElementById('ari-pic');
-		
-		        function changeImage() {
-		            currentIndex = (currentIndex + 1) % imagePaths.length;
-		            ariPic.src = imagePaths[currentIndex];
+		document.addEventListener("DOMContentLoaded", () => {
+		    const imagePaths = [
+		        "./statics/ss1.png",
+		        "./statics/ss2.png",
+		        "./statics/ss7.png"
+		    ];
+
+		    let currentIndex = 0;
+		    const ariPic = document.getElementById('ari-pic');
+
+		    const changeImage = () => {
+		        currentIndex = (currentIndex + 1) % imagePaths.length;
+		        ariPic.src = imagePaths[currentIndex];
+		    };
+
+		    setInterval(changeImage, 3000);
+
+		    const buttonsContainer = document.querySelector('.options');
+		    buttonsContainer.addEventListener('click', (event) => {
+		        if (event.target.tagName === 'BUTTON') {
+		            const pageRoutes = {
+		                'res-but': './resume/',
+		                'organ-but': 'organ.html',
+		                'proj-but': './projects/',
+		                'arts-but': 'articles.html',
+		                'books-but': './books/',
+		                'blog-but': "https://arihara-sudhan.github.io/blog/",
+		                'hobs-but': './hobbies/',
+		                'kural-but': './kural/',
+		                'ta-but': 'https://tamizharivagam.blogspot.com'
+		            };
+
+		            const targetId = event.target.id;
+		            const route = pageRoutes[targetId];
+
+		            if (route) {
+		                if (targetId === 'blog-but' || targetId === 'ta-but') {
+		                    window.open(route, '_blank');
+		                } else {
+		                    location.href = route;
+		                }
+		            }
 		        }
-		
-		        setInterval(changeImage, 3000);
-	    
-			var buttonsContainer = document.querySelector('.options');
-			buttonsContainer.addEventListener('click', function(event) {
-				var target = event.target;
-				if (target.nodeName === 'BUTTON') {
-					var buttonId = target.id;
-					switch (buttonId) {
-						case 'res-but':
-							location.href = './resume/';
-							break;
-						case 'organ-but':
-							location.href = 'organ.html';
-							break;
-						case 'proj-but':
-							location.href = './projects/';
-							break;
-						case 'arts-but':
-							location.href = 'articles.html';
-							break;
-						case 'books-but':
-							location.href = './books/';
-							break;
-						case 'blog-but':
-							window.open("https://arihara-sudhan.github.io/blog/");
-							break;
-						case 'hobs-but':
-							location.href = './hobbies/';
-							break;
-						case 'kural-but':
-							location.href = './kural/';
-							break;
-						case 'ta-but':
-							window.open('https://tamizharivagam.blogspot.com', '_blank');
-							break;
-					}
-				}
-			});
+		    });
 
-			setTimeout(function() {
-				var tigElement = document.getElementById('tig');
-				tigElement.parentNode.removeChild(tigElement);
-			}, 15000);
+		    setTimeout(() => {
+		        const tigElement = document.getElementById('tig');
+		        tigElement?.remove();
+		    }, 15000);
 		});
-	</script>
-	<script>
-		(function() {
-			var css = "@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');",
-				head = document.head || document.getElementsByTagName('head')[0],
-				style = document.createElement('style');
 
-			style.type = 'text/css';
-			if (style.styleSheet) {
-				style.styleSheet.cssText = css;
-			} else {
-				style.appendChild(document.createTextNode(css));
-			}
-
-			head.appendChild(style);
-		})();
 	</script>
 </body>
 </html>
