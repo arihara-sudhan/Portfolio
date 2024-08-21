@@ -178,5 +178,11 @@
     "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/funcprog.pdf",
     "name": "Functional Programming",
     "tag": "web"
+  },
+  {
+    "cover": "./covers/ts.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/ts.pdf",
+    "name": "Basics of TypeScript",
+    "tag": "web"
   }
 ]
