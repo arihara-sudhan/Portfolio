@@ -184,5 +184,11 @@
     "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/ts.pdf",
     "name": "Basics of TypeScript",
     "tag": "web"
+  },
+  {
+    "cover": "./covers/engviastory5.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/994e620b9a0731c4ec6f7372a49c0f442202acf1/books/BOOKS/engviastory5.pdf",
+    "name": "English via Stories 5",
+    "tag": "tamizh"
   }
 ]
