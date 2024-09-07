@@ -139,6 +139,7 @@
 			<button id="proj-but">Projects (BETA)</button>
 			<button id="hobs-but">Hobbies</button>
 			<button id="blog-but">Blog</button>
+			<button id="words-but">New Words (BETA)</button>
 			<button id="ta-but">Tamizharivagam (தமிழ்)</button>
 		</div>
 
@@ -169,6 +170,7 @@
 		                'res-but': './resume/',
 		                'books-but': './books/',
 		                'proj-but': './projects/',
+		                'words-but': 'https://arihara-sudhan.github.io/puthu-words/',
 		                'blog-but': "https://arihara-sudhan.github.io/blog/",
 		                'hobs-but': './hobbies/',
 		                'kural-but': './kural/',
@@ -179,7 +181,7 @@
 		            const route = pageRoutes[targetId];
 
 		            if (route) {
-		                if (targetId === 'blog-but' || targetId === 'ta-but') {
+		                if (targetId === 'blog-but' || targetId === 'ta-but' || targetId === 'words-but' ) {
 		                    window.open(route, '_blank');
 		                } else {
 		                    location.href = route;
