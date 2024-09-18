@@ -2,6 +2,11 @@ window.addEventListener('load',(e)=>{
     var codings = document.getElementsByClassName("codings");
     var myobj = [
        [
+           "Classify Anything Model",
+           "https://youtu.be/OFedPnR8pjk?si=I4ek_xXK-bC_t8ez",
+           "Embedding Search"
+       ],			 
+       [
            "Image Segmentation",
            "https://www.youtube.com/embed/m59BVAFKsXg",
            "Python - K Means Clustering"
