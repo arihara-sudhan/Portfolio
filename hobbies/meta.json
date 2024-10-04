@@ -114,12 +114,6 @@
         "tag": "aves"
     },
     {
-        "title": "Diamond Headed Fish",
-        "hash": "bR9LUT1X7eo?si=rqZTdNx9mDwPguuM",
-        "description": "",
-        "tag": "animalia"
-    },
-    {
         "title": "Colocynth",
         "hash": "jTpGxfLRu1Y?si=bm-cX4dIzZ3B1L3v",
         "description": "",
@@ -136,5 +130,29 @@
         "hash": "cI-aSXVXI6Y?si=LrC33whLRJjf5p_t",
         "description": "",
         "tag": "animalia"
-    }   
+    },
+    {
+        "title" "Sook",
+        "hash": "xm2KkOTVyws?si=4qRxz2iXwceWnFz8",
+        "description": "",
+        "tag": "animalia"
+    },
+    {
+        "title" "Huntsman",
+        "hash": "qazYbQRf-VA?si=rAWj7-1cZZDgY9HZ",
+        "description": "",
+        "tag": "insectidae"
+    },
+    {
+        "title" "Canis - Kiss",
+        "hash": "qFVSpX6St1Y?si=Oi9nRTx9l62vHtgK",
+        "description": "",
+        "tag": "animalia"
+    },    
+    {
+        "title" "Walk of Peacock",
+        "hash": "XLsmCL6x0w0?si=rCbzA8Ji8l-0MkUi",
+        "description": "",
+        "tag": "aves"
+    }
 ]
