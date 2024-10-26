@@ -10,10 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const tagElement = document.createElement("h2");
             tagElement.innerText = tag;
             tagElement.style.backgroundColor = tagColors[color_idx];
-            if(color_idx+1==tagColors.length)
-                color_idx=0
-            else
-                color_idx+=1;
+            color_idx = (color_idx + 1) % tagColors.length;
             tagElement.addEventListener("click", () => {
                 tagSelected = tag;
                 updateContent();
@@ -23,16 +20,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateContent() {
-        fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/main/projects/meta.json")
+        fetch("https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/main/hobbies/meta.json")
             .then(resp => resp.json())
             .then(data => {
                 let innerContents = '';
                 data.forEach(hobby => {
                     if (tagSelected === "" || hobby.tag === tagSelected) {
                         if(hobby.hash)
-                            innerContents += `<div class="hobby-hash">
-                                                <iframe src="https://youtube.com/embed/${hobby.hash}" class="embed-responsive-item" allowFullscreen>
-                                                </iframe>
+                            innerContents += `<div class="hash">
+                                                <iframe src="https://youtube.com/embed/${hobby.hash}" class="embed-responsive-item" allowFullscreen></iframe>
                                                 <h4>${hobby.title}</h4>
                                             </div>`;
                     }
@@ -42,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error fetching the JSON file:', error));
     }
 
-    const tags = ["vision", "3d-modeling", "nlp", "drawing", "game-dev"]; 
     createTagBanner(tags, tagsElement);
     updateContent();
 });
