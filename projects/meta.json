@@ -3,19 +3,7 @@
         "title": "Classify Anything Model",
         "hash": "OFedPnR8pjk?si=I4ek_xXK-bC_t8ez",
         "description": "Embedding Search",
-        "tag": "classification"
-    },
-    {
-        "title": "Image Segmentation",
-        "hash": "m59BVAFKsXg",
-        "description": "Python - K Means Clustering",
-        "tag": "segmentation"
-    },
-    {
-        "title": "Personal Blog Page",
-        "hash": "JrAx6S09Fh0",
-        "description": "MERN Stack",
-        "tag": "web-dev"
+        "tag": "vision"
     },
     {
         "title": "CUBE into Monitor Lizard - 3D Model",
@@ -27,7 +15,7 @@
         "title": "TAMIZH HandWritten Vowels",
         "hash": "9zwWLPQ4JVM",
         "description": "Python - CNN & Triplet Loss",
-        "tag": "handwriting-recognition"
+        "tag": "vision"
     },
     {
         "title": "Sentiment Analysis",
@@ -39,13 +27,7 @@
         "title": "MNIST-HandWritten Digit Recognition",
         "hash": "kO-2t13f3SA",
         "description": "Python - CNN",
-        "tag": "digit-recognition"
-    },
-    {
-        "title": "CRUD App | Dynamic Page",
-        "hash": "6JDMa82gn5E",
-        "description": "Python - Django",
-        "tag": "web-dev"
+        "tag": "vision"
     },
     {
         "title": "Fire Dino Game",
@@ -63,19 +45,13 @@
         "title": "Speech Recognition based Calculator",
         "hash": "ptMLLKaTEm8",
         "description": "Python - Google API",
-        "tag": "speech-recognition"
+        "tag": "nlp"
     },
     {
         "title": "Speech Recognition based WebDev",
         "hash": "LN-BP5-yny0",
         "description": "Python - Google API",
-        "tag": "speech-recognition"
-    },
-    {
-        "title": "WhatsApp Frontend",
-        "hash": "yK6e6g2IDDM",
-        "description": "ReactJS",
-        "tag": "frontend"
+        "tag": "nlp"
     },
     {
         "title": "Space Shooter Game",
@@ -117,73 +93,37 @@
         "title": "2D Animated WindMill",
         "hash": "JVZDJyqV_Pg",
         "description": "Python - Turtle",
-        "tag": "animation"
-    },
-    {
-        "title": "Fruits' Website - Frontend",
-        "hash": "WSS3BEmKsYU",
-        "description": "Bootstrap3",
-        "tag": "frontend"
+        "tag": "drawing"
     },
     {
         "title": "Virtual Quiz Application",
         "hash": "2eeOpg8Yh7M",
         "description": "Python - Mediapipe, OpenCV",
-        "tag": "quiz-app"
+        "tag": "vision"
     },
     {
         "title": "Counting Tom",
         "hash": "3bKUkOegiYY",
         "description": "Python - Mediapipe, OpenCV",
-        "tag": "counting"
+        "tag": "vision"
     },
     {
         "title": "Virtual Pattern Lock",
         "hash": "n790TFD36Kk",
         "description": "Python - Mediapipe, OpenCV",
-        "tag": "pattern-lock"
+        "tag": "vision"
     },
     {
         "title": "Hand Controlled Car Game",
         "hash": "ZxMbdxOkCfc",
         "description": "Python - Mediapipe, Pygame, OpenCV",
-        "tag": "hand-gesture"
+        "tag": "game-dev"
     },
     {
         "title": "Car Game",
         "hash": "ZjJKM_wrrcU",
         "description": "Python - Pygame",
         "tag": "game-dev"
-    },
-    {
-        "title": "Reversing A Video",
-        "hash": "rkEIg353VcE",
-        "description": "Python - OpenCV",
-        "tag": "video-processing"
-    },
-    {
-        "title": "Web Piano",
-        "hash": "dTgIzay9mDc",
-        "description": "HTML + CSS + JS",
-        "tag": "frontend"
-    },
-    {
-        "title": "Instagram Profile - Frontend",
-        "hash": "NwowTqXROpU",
-        "description": "ReactJS",
-        "tag": "frontend"
-    },
-    {
-        "title": "YouTube - Frontend",
-        "hash": "zhllr6WRN3E",
-        "description": "ReactJS",
-        "tag": "frontend"
-    },
-    {
-        "title": "YouTube Video Downloader",
-        "hash": "haD58ogVC9I",
-        "description": "Python - Misc",
-        "tag": "utility"
     },
     {
         "title": "Dinosaur Game",
@@ -198,22 +138,10 @@
         "tag": "drawing"
     },
     {
-        "title": "Parrot Astrology",
-        "hash": "CSXqt2Qe5j4",
-        "description": "Python - WebScraping",
-        "tag": "astrology"
-    },
-    {
-        "title": "Talking Tom",
-        "hash": "2VRp-cA4f9g",
-        "description": "Python - Misc",
-        "tag": "talking-tom"
-    },
-    {
         "title": "The Piano",
         "hash": "X1P3kihA910",
         "description": "Python - Misc",
-        "tag": "piano"
+        "tag": "game-dev"
     },
     {
         "title": "The Plane Game",
@@ -225,36 +153,12 @@
         "title": "Face Detection",
         "hash": "zY8jfTca90k",
         "description": "Python - OpenCV, DL",
-        "tag": "face-detection"
+        "tag": "vision"
     },
     {
         "title": "MultiFace Detection",
         "hash": "ds_8GRUP6Lc",
         "description": "Python - OpenCV, DL",
-        "tag": "face-detection"
-    },
-    {
-        "title": "UI/UX Design",
-        "hash": "ikok_lK4wfE",
-        "description": "HTML+CSS+JS",
-        "tag": "design"
-    },
-    {
-        "title": "WildLife Gifography",
-        "hash": "CGgzc2rGXIQ",
-        "description": "HTML+CSS+JS",
-        "tag": "design"
-    },
-    {
-        "title": "Pupil Detection",
-        "hash": "mafTRpX3C0o",
-        "description": "Python - OpenCV",
-        "tag": "eye-tracking"
-    },
-    {
-        "title": "Music Player",
-        "hash": "Rv2grOmTBrM",
-        "description": "ReactJS",
-        "tag": "music-player"
+        "tag": "vision"
     }
 ]
