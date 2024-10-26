@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => console.error('Error fetching the JSON file:', error));
     }
 
-    const tags = ["tamizh-poems", "stage", "book-review", "phytophilia", "animalia", "aves", "insectidae"]; 
+    const tags = ["vision", "3d-modeling", "nlp", "drawing", "game-dev"]; 
     createTagBanner(tags, tagsElement);
     updateContent();
 });
