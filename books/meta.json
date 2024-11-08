@@ -6,6 +6,12 @@
     "tag": "web"
   },
   {
+    "cover": "./covers/mumu.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/mumu.pdf",
+    "name": "MultiLayer Perceptron",
+    "tag": "machine-learning"
+  },
+  {
     "cover": "./covers/backbk.png",
     "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/b7f7210abd1ac4b75e451d4676c1f6e646d8bf07/books/BOOKS/backpg.pdf",
     "name": "Back Propagation",
