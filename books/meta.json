@@ -214,5 +214,17 @@
     "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/tsreact.pdf",
     "name": "TypeScript into ReactJS",
     "tag": "web"
+  },
+  {
+    "cover": "./covers/tsutil.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/tsutil.pdf",
+    "name": "Utility Types in TypeScript",
+    "tag": "web"
+  },
+  {
+    "cover": "./covers/optim.png",
+    "url": "https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/books/BOOKS/optim.pdf",
+    "name": "Optimizers",
+    "tag": "machine-learning"
   }
 ]
