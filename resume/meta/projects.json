@@ -27,12 +27,12 @@
     "title": "AI Powered MediKit",
     "dept": "Medical Track | AI Hackathon | Medecro.AI",
     "description": "Developed an AI-powered Medikit for smart diagnostics and medical assistance using cutting-edge AI algorithms.",
-    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+    "imageUrl": "./statics/projects/caduceus.jpeg"
   },
   {
     "title": "Smart Education System",
     "dept": "Educational Track | AI Hackathon | ATHENEUM",
     "description": "Designed a smart education system that personalizes learning pathways using AI-driven insights.",
-    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+    "imageUrl": "./statics/projects/caduceus.jpeg"
   }
 ]
