@@ -14,7 +14,7 @@ async function createProjects() {
         <div class="project">
           <div class="primary">
             <div class="secondary">
-              <img src="${project.imageUrl}" alt="${project.title}" width="50px" height="50px" class="imgg">
+              <img src="${project.imageUrl}" alt="${project.title}">
               <h2>${project.title}</h2>
             </div>
             <h2 class="dept">${project.dept}</h2>

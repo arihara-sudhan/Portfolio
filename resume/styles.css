@@ -319,6 +319,13 @@ a {
     text-align: justify;
 }
 
+.projects .project img {
+    width: 10%;
+}
+.projects .dept {
+    width: 60%;
+    text-align: right;
+}
 
 @media (max-width: 1000px) {
     .projects h2 {
@@ -331,6 +338,8 @@ a {
     }
     .projects .dept {
         font-size: 3vw;
+        text-align: left;
+        width: 100%;
     }
     .description {
         font-size: 0.7vw;
