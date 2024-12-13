@@ -6,20 +6,20 @@
     "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
   },
   {
-    "title": "Multiple Agent Invitation",
-    "dept": "UI | User Feature Engineering | ZOHO DESK | Zoho",
-    "description": "Developed a feature for multiple agent invitation with efficient workflows and dynamic updates.",
-    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
-  },
-  {
-    "title": "Handling Varying Sampling Rate",
+    "title": "Audio Classification using CNN",
     "dept": "Speech Profiling | Audio Processing | ZLABS | Zoho",
     "description": "Created algorithms to handle varying sampling rates in speech profiling for enhanced audio processing.",
     "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
   },
   {
+    "title": "Multiple Agent Invitation",
+    "dept": "Client Technology | User Feature Engineering | ZOHO DESK | Zoho",
+    "description": "Developed a feature for multiple agent invitation with efficient workflows and dynamic updates.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
     "title": "Desk Bug Fixes",
-    "dept": "UI | User Feature Engineering | ZOHO DESK | Zoho",
+    "dept": "Client Technology | User Feature Engineering | ZOHO DESK | Zoho",
     "description": "Addressed major bugs in the Desk module, ensuring smooth user experience and feature stability.",
     "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
   },
