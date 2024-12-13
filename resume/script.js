@@ -27,6 +27,8 @@ async function createProjects() {
     });
     projectsContainer.innerHTML = htmlContent;
   } catch (error) {
-    console.log(error, "ERROR");
+    console.log(error, "ERROR CREATING PROJECTS ARI! 🥴");
   }
 }
+
+createProjects();
