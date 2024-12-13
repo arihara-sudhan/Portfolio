@@ -30,5 +30,3 @@ async function createProjects() {
     console.log(error, "ERROR");
   }
 }
-
-createProjects();
