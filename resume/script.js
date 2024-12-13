@@ -1,4 +1,4 @@
-const PROJECTS_API = 'https://example.com/projects';
+const PROJECTS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/projects.json';
 
 async function createProjects() {
   try {
