@@ -1,0 +1,38 @@
+[
+  {
+    "title": "FewShot Doc2Vec",
+    "dept": "Intelligent Document Processing | Computer Vision | ZLABS | Zoho",
+    "description": "Developed a few-shot Doc2Vec model, beginning with ResNet-50 and later transitioning to DiT (Vision Transformer pretrained on a document dataset). Implementation: Extracted document embeddings and performed few-shot training using Triplet Loss. Achieved 100% similarity search accuracy with well-labeled data. Key Insights: Found that classification models could sometimes behave like few-shot models and vice versa. Integrated multimodal training, combining visual features from ResNet with textual features from BERT, which led to strong generalization capabilities.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
+    "title": "Multiple Agent Invitation",
+    "dept": "UI | User Feature Engineering | ZOHO DESK | Zoho",
+    "description": "Developed a feature for multiple agent invitation with efficient workflows and dynamic updates.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
+    "title": "Handling Varying Sampling Rate",
+    "dept": "Speech Profiling | Audio Processing | ZLABS | Zoho",
+    "description": "Created algorithms to handle varying sampling rates in speech profiling for enhanced audio processing.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
+    "title": "Desk Bug Fixes",
+    "dept": "UI | User Feature Engineering | ZOHO DESK | Zoho",
+    "description": "Addressed major bugs in the Desk module, ensuring smooth user experience and feature stability.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
+    "title": "AI Powered MediKit",
+    "dept": "Medical Track | AI Hackathon | Medecro.AI",
+    "description": "Developed an AI-powered Medikit for smart diagnostics and medical assistance using cutting-edge AI algorithms.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  },
+  {
+    "title": "Smart Education System",
+    "dept": "Educational Track | AI Hackathon | ATHENEUM",
+    "description": "Designed a smart education system that personalizes learning pathways using AI-driven insights.",
+    "imageUrl": "https://cdn.create.vista.com/api/media/small/202112750/stock-photo-caduceus-caduceus-logo-icon-for-medical-healthcare-conceptual-illustrations"
+  }
+]
