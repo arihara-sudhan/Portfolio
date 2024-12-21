@@ -1,0 +1,30 @@
+body {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.pettagam {
+    width: 100%;
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tharavu {
+    width: 28%;
+    font-size: 1vw;
+    margin: 1rem;
+    background-color: lightgreen;
+    border-radius: 1rem;
+    border-right: 0.2rem solid yellow;
+    border-bottom: 0.3rem solid yellow;
+    padding: 1rem;
+}
+
+.tharavu img {
+    width: 60%;
+    border-radius: 1rem;
+}
