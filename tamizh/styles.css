@@ -30,12 +30,30 @@ body {
 .tharavu {
     width: 28%;
     font-size: 1vw;
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: lightgreen;
     border-radius: 1rem;
     border-right: 0.2rem solid yellow;
     border-bottom: 0.3rem solid yellow;
     padding: 1rem;
+}
+
+.katturai {
+    width: 92%;
+    display: flex;
+    font-size: 1.23vw;
+    background-color: lightgreen;
+    border-radius: 1rem;
+    border-right: 0.2rem solid yellow;
+    border-bottom: 0.3rem solid yellow;
+    padding: 1rem;    
+    margin: 0.5rem;
+}
+
+.katturai img {
+    width: 10%;
+    border-radius: 1rem;
+    margin: 0.5rem;
 }
 
 .tharavu img {
@@ -59,4 +77,19 @@ body {
     .tharavu img {
         width: 90%;
     }
+    .katturai {
+        font-size: 1vw;
+        width: 90%;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .katturai h1 {
+        text-align: center;
+    }
+    .katturai img {
+        width: 90%;
+    }
+    
 }
