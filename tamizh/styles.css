@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", serif;
+}
+
+p {
+    text-align: justify;
+}
+
 body {
     background-color: green;
     display: flex;
@@ -27,4 +37,21 @@ body {
 .tharavu img {
     width: 60%;
     border-radius: 1rem;
+}
+
+
+@media (max-width: 1000px) {
+    .pettagam {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 99%;
+        align-items: center;
+    }
+    .tharavu {
+        width: 90%;
+        margin: 1rem;
+    }
+    .tharavu img {
+        width: 90%;
+    }
 }
