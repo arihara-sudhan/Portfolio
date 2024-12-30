@@ -46,6 +46,7 @@
 
 		    let currentIndex = 0;
 		    const ariPic = document.getElementById('ari-pic');
+		    ariPic.style.pointerEvents = 'none';
 
 		    const changeImage = () => {
 		        currentIndex = (currentIndex + 1) % imagePaths.length;
