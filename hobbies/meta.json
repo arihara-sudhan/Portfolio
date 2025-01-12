@@ -20,6 +20,11 @@
         "imgURL": "./static/clever_clover.png"
     },
     {
+        "title": "Tamil Research & Contribution",
+        "url": "https://arihara-sudhan.github.io/tamizh",
+        "imgURL": "https://arihara-sudhan.github.io/resume/statics/tamizh.png"
+    },    
+    {
         "title": "Flora & Fauna",
         "url": "https://www.youtube.com/@ferns-and-friends/shorts",
         "imgURL": "./static/flora_and_fauna.webp"
