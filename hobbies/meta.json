@@ -1,5 +1,20 @@
 [
     {
+        "title": "LinkedIning",
+        "url": "https://www.linkedin.com/in/arihara-sudhan/",
+        "imgURL": "./static/linkedin.gif"
+    },
+    {
+        "title": "Poem Writing (Tamil)",
+        "url": "https://arihara-sudhan.github.io/ariyin-kavithaigal",
+        "imgURL": "./static/write.png"
+    },
+     {
+        "title": "Tech Teaching",
+        "url": "https://www.youtube.com/@clever_clover_7",
+        "imgURL": "./static/clever_clover.png"
+    },
+    {
         "title": "Blogging",
         "url": "https://arihara-sudhan.github.io/blog",
         "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
@@ -13,45 +28,5 @@
         "title": "Binomial Names",
         "url": "https://youtu.be/CXd4P4M8lPA?si=VAjLUD-pHkJQejFA",
         "imgURL": "./static/hibiscus.png"
-    },
-    {
-        "title": "LinkedIning",
-        "url": "https://www.linkedin.com/in/arihara-sudhan/",
-        "imgURL": "./static/linkedin.gif"
-    },
-    {
-        "title": "Poem Writing (Tamil)",
-        "url": "https://arihara-sudhan.github.io/ariyin-kavithaigal",
-        "imgURL": "./static/write.png"
-    },
-     {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
     }
 ]
