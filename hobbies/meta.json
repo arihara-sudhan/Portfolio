@@ -9,11 +9,6 @@
         "url": "https://www.linkedin.com/in/arihara-sudhan/",
         "imgURL": "./static/linkedin.gif"
     },
-    {
-        "title": "Poem Writing (Tamil)",
-        "url": "https://arihara-sudhan.github.io/ariyin-kavithaigal",
-        "imgURL": "./static/pen.png"
-    },
      {
         "title": "Tech Teaching",
         "url": "https://www.youtube.com/@clever_clover_7",
@@ -24,6 +19,11 @@
         "url": "https://arihara-sudhan.github.io/tamizh",
         "imgURL": "https://arihara-sudhan.github.io/resume/statics/tamizh.png"
     },    
+    {
+        "title": "Poem Writing (Tamil)",
+        "url": "https://arihara-sudhan.github.io/ariyin-kavithaigal",
+        "imgURL": "./static/pen.png"
+    },
     {
         "title": "Flora & Fauna",
         "url": "https://www.youtube.com/@ferns-and-friends/shorts",
