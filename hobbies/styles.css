@@ -1,6 +1,8 @@
 #hobbies {
     display: flex;
     width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hobby {
@@ -8,12 +10,16 @@
     justify-content: center;
     align-items: center;
     background-color: #42414d;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 1rem;
-    width: 40%;
+    width: 30%;
 }
 
 .hobby img {
     width: 30%;
+}
+
+.hobby h2 {
+    font-size: 2vw;
 }
