@@ -20,11 +20,11 @@
         "imgURL": "./static/linkedin.gif"
     },
     {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
+        "title": "Poem Writing (Tamil)",
+        "url": "https://arihara-sudhan.github.io/ariyin-kavithaigal",
+        "imgURL": "./static/write.png"
     },
-    {
+     {
         "title": "Blogging",
         "url": "https://arihara-sudhan.github.io/blog",
         "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
