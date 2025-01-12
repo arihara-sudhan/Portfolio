@@ -1,0 +1,19 @@
+#hobbies {
+    display: flex;
+    width: 90%;
+}
+
+.hobby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42414d;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 40%;
+}
+
+.hobby img {
+    width: 30%;
+}

@@ -2,7 +2,7 @@ const HOBBIES_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-su
 
 async function createHobbies() {
   try {
-    const response = await fetch(PROJECTS_API);
+    const response = await fetch(HOBBIES_API);
     if (!response.ok) {
       throw new Error(`${response.status}`);
     }
