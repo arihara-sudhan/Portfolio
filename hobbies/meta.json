@@ -15,14 +15,9 @@
         "imgURL": "./static/hibiscus.png"
     },
     {
-        "title": "Blogging",
-        "url": "https://arihara-sudhan.github.io/blog",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
-    },
-    {
         "title": "LinkedIning",
         "url": "https://www.linkedin.com/in/arihara-sudhan/",
-        "imgURL": "https://arihara-sudhan.github.io/blog/img/logo.png"
+        "imgURL": "./static/linkedin.gif"
     },
     {
         "title": "Blogging",
