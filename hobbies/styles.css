@@ -23,3 +23,22 @@
 .hobby h2 {
     font-size: 2vw;
 }
+
+@media (max-width: 1000px) {
+    #hobbies {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+    }
+    .hobby {
+        width: 90%;
+        font-size: 3vw;
+        justify-content: left;
+        margin: 0.4rem;
+        border-radius: 0.4rem;
+    }
+    .hobby img {
+        width: 20%;
+    }
+}
