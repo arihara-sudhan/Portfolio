@@ -14,11 +14,20 @@
     padding: 0.5rem;
     border-radius: 1rem;
     width: 30%;
+    border-right: 3px solid lightgreen;
+    border-bottom: 3px solid lightgreen;    
 }
 
 .hobby img {
     width: 30%;
     margin-right: 0.3rem;
+}
+
+.hobby:hover {
+    background-color: lightgreen;
+    color: black;
+    border-right: 3px solid green;
+    border-bottom: 3px solid green;    
 }
 
 .hobby h2 {
