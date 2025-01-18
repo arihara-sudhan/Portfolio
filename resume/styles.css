@@ -359,14 +359,17 @@ a {
 }
 
 /* ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY ACTIVITY */
+.activities {
+    width: 100%;
+}
 .activity {
+    font-size: 1vw;
     display: flex;
     justify-content: space-between;
     border: 0.51px solid rgba(0, 0, 0, 0.2);
-    padding: 0.7rem;
+    padding: 1rem;
 }
 .activity .description {
-    font-size: 1.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,10 +377,12 @@ a {
 .activity .description * {
     margin: 0;
 }
-.activity img {
-    margin-right: 0.5rem;
+.year {
+    margin-left: 2rem;
 }
-
+.subtitle {
+    font-size: 1.3vw;
+}
 /* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
 .projects {
     display: flex;
