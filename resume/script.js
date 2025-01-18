@@ -94,7 +94,7 @@ async function createAcademics() {
       throw new Error(`${response.status}`);
     }
     const academics = await response.json();
-    console.log(academics, "ACADEMICS");
+   
     const academicsContainer = document.querySelector('.academics');
     let htmlContent = '';
     academics.forEach(school => {
