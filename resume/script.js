@@ -58,7 +58,7 @@ async function createLanguages() {
 }
 
 
-const ACADEMICS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/languages.json';
+const ACADEMICS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/academics.json';
 
 async function createAcademics() {
   try {
@@ -67,6 +67,7 @@ async function createAcademics() {
       throw new Error(`${response.status}`);
     }
     const academics = await response.json();
+    console.log(academics, "ACADEMICS");
     const academicsContainer = document.querySelector('.academics');
     let htmlContent = '';
     academics.forEach(school => {
