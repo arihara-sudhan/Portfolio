@@ -272,6 +272,12 @@ a {
 }
 
 
+
+.me1 * {
+    color: white;
+}
+
+
 /*
     NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW
     NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW
@@ -281,10 +287,29 @@ a {
     NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW
 */
 
-.me1 * {
-    color: white;
+/* LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES */
+
+.languages {
+    display: flex;
+    justify-content: space-around;
 }
 
+.lang {
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 33.34%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.lang img {
+    width: 100px;
+}
+
+/* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */
 .projects {
     display: flex;
     justify-content: center;
@@ -345,3 +370,4 @@ a {
         font-size: 0.7vw;
     }
 }
+
