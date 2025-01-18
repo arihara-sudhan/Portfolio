@@ -57,6 +57,33 @@ async function createLanguages() {
   }
 }
 
+const SKILLS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/skills.json';
+
+async function createSkills() {
+  try {
+    const response = await fetch(SKILLS_API);
+    if (!response.ok) {
+      throw new Error(`${response.status}`);
+    }
+    const skills = await response.json();
+    const skillsContainer = document.querySelector('.skills');
+    let htmlContent = '';
+    
+    skills.forEach(skill => {
+      htmlContent += `
+        <div class="skill">
+          <img src="${skill.image}" alt="${skill.alt}">
+          <h3>${skill.skill}</h3>
+        </div>
+      `;
+    });
+    
+    skillsContainer.innerHTML = htmlContent;
+  } catch (error) {
+    console.log(error, "ERROR CREATING SKILLS ARI! 🥴");
+  }
+}
+
 
 const ACADEMICS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/academics.json';
 
@@ -88,4 +115,5 @@ async function createAcademics() {
 
 createLanguages();
 createAcademics();
+createSkills();
 createProjects();
