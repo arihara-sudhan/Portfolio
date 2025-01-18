@@ -113,7 +113,41 @@ async function createAcademics() {
   }
 }
 
+
+const ACTIVITIES_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/activities.json';
+
+async function createActivities() {
+  try {
+    const response = await fetch(ACTIVITIES_API);
+    if (!response.ok) {
+      throw new Error(`${response.status}`);
+    }
+    const activities = await response.json();
+    const activitiesContainer = document.querySelector('.activities');
+    let htmlContent = '';
+    activities.forEach(activity => {
+      htmlContent += `
+        <div class="activity">
+          <div class="description">
+            <img src="${activity.image}" alt="" width="50px" height="50px">
+            <div>
+              <h2>${activity.title}</h2>
+              <h3>${activity.subtitle}</h3>
+            </div>
+          </div>
+          <h3 class="year">${activity.year}</h3>
+        </div>
+      `;
+    });
+    activitiesContainer.innerHTML = htmlContent;
+  } catch (error) {
+    console.log(error, "ERROR CREATING ACTIVITIES ARI! 🥴");
+  }
+}
+
+
 createLanguages();
 createAcademics();
 createSkills();
 createProjects();
+createActivities();
