@@ -12,7 +12,13 @@
     "imageUrl": "./statics/projects/audio.avif"
   },
   {
-    "title": "Multiple Agent Invitation",
+    "title": "Deskie - RAG System",
+    "dept": "LLM | Innovative Solutions | ZOHO DESK | Zoho",
+    "description": "I am currently developing a Retrieval-Augmented Generation (RAG) system leveraging the Zoho Desk Knowledge Base as a source of information. The system integrates FAISS (Facebook AI Similarity Search) for efficient indexing and retrieval of knowledge base documents. Additionally, it employs a HuggingFace large language model (LLM) to enhance the generation of contextually accurate and insightful responses.",
+    "imageUrl": "./statics/projects/bot.png"
+  },
+  {
+    "title": "Agent Bulk Invite",
     "dept": "Client Technology | User Feature Engineering | ZOHO DESK | Zoho",
     "description": "At Zoho Desk, I undertook an enhancement project to enable Multiple Agent Invitation in a single go using ReactJS. This complex UI project involved managing intricate criteria, where adding a criterion dynamically adjusted the count of Agents or Light Agents. The implementation required addressing meticulously defined cases and handling delicate dependencies to ensure seamless functionality. The project was successfully completed, passing all UAT cases.",
     "imageUrl": "./statics/projects/agents.avif"
