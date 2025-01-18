@@ -107,16 +107,6 @@ i {
     color: black;
 }
 
-#heading h1 {
-    padding: 5px;
-    font-size: 30px;
-    height: auto;
-}
-
-.h11 {
-    background-color: rgba(0,0,0,0.2);
-}
-
 .me33 h1 {
     text-align: center;
     margin: 0;
@@ -287,8 +277,19 @@ a {
     NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW    NEW
 */
 
-/* LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES */
+.heading {
+    font-size: 1vw;
+    margin: 0;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.2);
+}
 
+.heading h1 {
+    margin: 0;
+}
+
+/* LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES LANGUAGES */
 .languages {
     display: flex;
     justify-content: space-around;
@@ -307,6 +308,27 @@ a {
 
 .lang img {
     width: 100px;
+}
+
+/* ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS */
+.academics {
+    display: flex;
+}
+.school * {
+    margin: 0.2rem;
+}
+.school {
+    display: flex;
+    padding: 0.3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border: 1px solid rgba(0,0,0,0.1);    
+}
+
+.school img {
+    width: 25%;
 }
 
 /* PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS */

@@ -2,21 +2,21 @@
     {
       "name": "Tamizh",
       "image": {
-        "src": "./statics/tamizh.png",
+        "src": "./statics/languages/tamizh.png",
         "alt": ""
       }
     },
     {
       "name": "Malayalam (Written)",
       "image": {
-        "src": "./statics/malayalam.png",
+        "src": "./statics/languages/malayalam.png",
         "alt": ""
       }
     },
     {
       "name": "English",
       "image": {
-        "src": "./statics/eng.png",
+        "src": "./statics/languages/eng.png",
         "alt": ""
       }
     }

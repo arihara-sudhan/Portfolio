@@ -57,5 +57,34 @@ async function createLanguages() {
   }
 }
 
+
+const ACADEMICS_API = 'https://raw.githubusercontent.com/arihara-sudhan/arihara-sudhan.github.io/refs/heads/main/resume/meta/languages.json';
+
+async function createAcademics() {
+  try {
+    const response = await fetch(ACADEMICS_API);
+    if (!response.ok) {
+      throw new Error(`${response.status}`);
+    }
+    const academics = await response.json();
+    const academicsContainer = document.querySelector('.academics');
+    let htmlContent = '';
+    academics.forEach(school => {
+      htmlContent += `
+        <div class="school">
+          <h3>${school.institution}</h3>
+          <h4>${school.location}</h4>
+          <img src="${school.image.src}" alt="${school.image.alt}">
+          <h5>${school.achievement}</h5>
+        </div>
+      `;
+    });
+    academicsContainer.innerHTML = htmlContent;
+  } catch (error) {
+    console.log(error, "ERROR CREATING ACADEMICS ARI! 🥴");
+  }
+}
+
 createLanguages();
+createAcademics();
 createProjects();
