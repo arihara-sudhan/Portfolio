@@ -339,13 +339,14 @@ a {
 
 @media (max-width: 1000px) {
     .skill {
-        width: 8%;
+        width: 10%;
+        margin: 0.1rem;
     }
-    .activity {
-        font-size: 1vw;
+    .activity-title {
+        font-size: 3vw;
     }
     .subtitle {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .projects h2 {
         font-size: 4vw;

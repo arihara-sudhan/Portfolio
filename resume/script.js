@@ -131,7 +131,7 @@ async function createActivities() {
           <div class="description">
             <img src="${activity.image}" alt="" width="50px" height="50px">
             <div>
-              <h2>${activity.title}</h2>
+              <h2 class="activity-title">${activity.title}</h2>
               <span class="subtitle">${activity.subtitle}</span>
             </div>
           </div>
