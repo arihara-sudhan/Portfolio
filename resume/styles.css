@@ -314,11 +314,13 @@ a {
 /* ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS ACADEMICS */
 .academics {
     display: flex;
+    justify-content: space-around;
 }
 .school * {
     margin: 0.2rem;
 }
 .school {
+    width: 33.34%;
     display: flex;
     padding: 0.3rem;
     flex-direction: column;
@@ -329,7 +331,8 @@ a {
 }
 
 .school img {
-    width: 25%;
+    width: 200px;
+    height: 250px;
 }
 
 /* SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET SKILLSET*/
@@ -378,7 +381,7 @@ a {
     margin: 0;
 }
 .year {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .subtitle {
     font-size: 1.3vw;
@@ -427,6 +430,9 @@ a {
 }
 
 @media (max-width: 1000px) {
+    .skill {
+        width: 20%;
+    }
     .projects h2 {
         font-size: 5vw;
         margin: 0;

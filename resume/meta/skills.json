@@ -40,11 +40,6 @@
       "skill": "Redux"
     },
     {
-      "image": "./statics/skillset/express.png",
-      "alt": "Just A Skill",
-      "skill": "Bootstrap"
-    },
-    {
       "image": "./statics/skillset/node.png",
       "alt": "Just A Skill",
       "skill": "Node JS"
