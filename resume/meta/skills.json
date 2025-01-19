@@ -100,6 +100,11 @@
       "skill": "CherryPy"
     },
     {
+      "image": "./statics/skillset/docker.webp",
+      "alt": "Just A Skill",
+      "skill": "Docker"
+    },
+    {
       "image": "./statics/skillset/blender.png",
       "alt": "Just A Skill",
       "skill": "Blender"
