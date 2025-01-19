@@ -15,6 +15,11 @@
       "skill": "OpenCv"
     },
     {
+      "image": "./statics/skillset/java.jpg",
+      "alt": "Just A Skill",
+      "skill": "Java"
+    },
+    {
       "image": "./statics/skillset/c.webp",
       "alt": "Just A Skill",
       "skill": "C Programming"
