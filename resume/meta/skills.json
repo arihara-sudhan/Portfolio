@@ -15,11 +15,6 @@
       "skill": "OpenCv"
     },
     {
-      "image": "./statics/skillset/java.jpg",
-      "alt": "Just A Skill",
-      "skill": "Java"
-    },
-    {
       "image": "./statics/skillset/c.webp",
       "alt": "Just A Skill",
       "skill": "C Programming"
@@ -113,6 +108,16 @@
       "image": "./statics/skillset/davinci.png",
       "alt": "Just A Skill",
       "skill": "Davinci Resolve"
+    },
+    {
+      "image": "./statics/skillset/git.png",
+      "alt": "Just A Skill",
+      "skill": "Git"
+    },
+    {
+      "image": "./statics/skillset/github.png",
+      "alt": "Just A Skill",
+      "skill": "GitHub"
     }
-  ]
+]
   
