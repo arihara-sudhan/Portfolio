@@ -5,6 +5,16 @@
       "skill": "Python Core"
     },
     {
+      "image": "./statics/skillset/torch.jpg",
+      "alt": "Just A Skill",
+      "skill": "PyTorch"
+    },
+    {
+      "image": "./statics/skillset/opencv.webp",
+      "alt": "Just A Skill",
+      "skill": "OpenCv"
+    },
+    {
       "image": "./statics/skillset/c.webp",
       "alt": "Just A Skill",
       "skill": "C Programming"
@@ -20,14 +30,24 @@
       "skill": "Vanilla JS"
     },
     {
-      "image": "./statics/skillset/torch.jpg",
-      "alt": "Just A Skill",
-      "skill": "PyTorch"
-    },
-    {
       "image": "./statics/skillset/ts.png",
       "alt": "Just A Skill",
       "skill": "TypeScript"
+    },
+    {
+      "image": "./statics/skillset/html.webp",
+      "alt": "Just A Skill",
+      "skill": "HTML"
+    },
+    {
+      "image": "./statics/skillset/css.webp",
+      "alt": "Just A Skill",
+      "skill": "CSS"
+    },
+    {
+      "image": "./statics/skillset/bootstrap.png",
+      "alt": "Just A Skill",
+      "skill": "Bootstrap"
     },
     {
       "image": "./statics/skillset/react.png",
@@ -60,6 +80,21 @@
       "skill": "ExpressJS"
     },
     {
+      "image": "./statics/skillset/fastapi.png",
+      "alt": "Just A Skill",
+      "skill": "FastAPI"
+    },
+    {
+      "image": "./statics/skillset/flask.png",
+      "alt": "Just A Skill",
+      "skill": "Flask"
+    },
+    {
+      "image": "./statics/skillset/cherrypy.png",
+      "alt": "Just A Skill",
+      "skill": "CherryPy"
+    },
+    {
       "image": "./statics/skillset/blender.png",
       "alt": "Just A Skill",
       "skill": "Blender"
@@ -68,16 +103,6 @@
       "image": "./statics/skillset/davinci.png",
       "alt": "Just A Skill",
       "skill": "Davinci Resolve"
-    },
-    {
-      "image": "https://cdn.worldvectorlogo.com/logos/fastapi-1.svg",
-      "alt": "Just A Skill",
-      "skill": "FastAPI"
-    },
-    {
-      "image": "https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg",
-      "alt": "Just A Skill",
-      "skill": "Bootstrap"
     }
   ]
   
