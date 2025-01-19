@@ -1,29 +1,22 @@
-* {
-    color: black;
-}
-.me1 {
+.header {
     display: flex;
     flex-direction: row;
     background-color: rgba(0,0,0,0.6);
     padding: 20px;
 }
 
-.me1 img {
+.header img {
     border-radius: 50%;
     border: 5px solid white;
     margin: 10px;
-
 }
-
-hr {
-    margin: 0;
-}
-.me1-det {
+.header-detail {
     margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #name {
@@ -39,7 +32,13 @@ hr {
 }
 i {
     font-size: 1.5em;
+    color: white;
 }
+
+i:hover {
+    color: black;
+}
+
 .contact {
     padding-top: 1.2em;
     display: flex;
@@ -48,99 +47,13 @@ i {
     width: 100%;
 }
 
-.me22 {
-    background-color: rgba(0,0,0,0.05); 
-}
-.me22 h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 60px;
-    color: rgba(0,0,0,0.6);
-}
-
-.me2 h3{
-    font-size: 1.2vw;
-}
-.me2 h4 {
-    font-size: 1vw;
-}
-.me2 h5{
-    font-size: 1vw;
-}
-
-.me2 {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-}
-.me2232 {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% 16.6666666667% ;
-}
-.me2232 #school1 h3,.me2232 #school1 h4,.me2232 #school1 h5 {
-    color: black;
-}
-.me2232 .langs {
-    color: black;
-    border: 1px solid rgba(0,0,0,0.1);
-    background-color: white;
-}
-.me2232 .langs h3 {
-    color: black;	
-    font-size: 1vw;
-}
-.me2232 .langs img {
-    margin-top: 1.2vh;
-}
-.me2 #clg h3,.me2 #clg h4,.me2 #clg h5 {
-    color: black;
-}
-.me2 #school1 h3,.me2 #school1 h4,.me2 #school1 h5 {
-    color: black;
-}
-.me2 #school2 h3,.me2 #school2 h4,.me2 #school2 h5 {
-    color: black;
-}
-#school1,#clg,#school2 {
-    border: 1px solid rgba(0,0,0,0.1);
-    color: black;
-}
-
-.me33 h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 1.5vw;
-    color: rgba(0,0,0,0.6);
-}
-
-.me2 h3 , .me2  h4, .me2 h5{
-    color: white;
-}
-
-.me3 h2 , .me3  h3, .me3 b{
-    color: black;
-}
-
-.me3 {
-  background-color: rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-}
-
-.a2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .a1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.a1 {
     background-color: white;
 }
+
 .desc {
     padding-left: 2vw;
 }
@@ -261,11 +174,6 @@ a {
     text-decoration: none;
 }
 
-
-
-.me1 * {
-    color: white;
-}
 
 
 /*
@@ -431,10 +339,16 @@ a {
 
 @media (max-width: 1000px) {
     .skill {
-        width: 20%;
+        width: 8%;
+    }
+    .activity {
+        font-size: 1vw;
+    }
+    .subtitle {
+        font-size: 4vw;
     }
     .projects h2 {
-        font-size: 5vw;
+        font-size: 4vw;
         margin: 0;
     }
     .projects .project .primary { 
@@ -447,7 +361,7 @@ a {
         width: 100%;
     }
     .description {
-        font-size: 0.7vw;
+        font-size: 3vw;
     }
 }
 
