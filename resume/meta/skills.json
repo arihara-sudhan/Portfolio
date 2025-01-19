@@ -90,11 +90,6 @@
       "skill": "Flask"
     },
     {
-      "image": "./statics/skillset/cherrypy.png",
-      "alt": "Just A Skill",
-      "skill": "CherryPy"
-    },
-    {
       "image": "./statics/skillset/docker.webp",
       "alt": "Just A Skill",
       "skill": "Docker"
@@ -118,6 +113,11 @@
       "image": "./statics/skillset/github.png",
       "alt": "Just A Skill",
       "skill": "GitHub"
+    },
+    {
+      "image": "./statics/skillset/gitlab.webp",
+      "alt": "Just A Skill",
+      "skill": "GitLab"
     }
 ]
   
